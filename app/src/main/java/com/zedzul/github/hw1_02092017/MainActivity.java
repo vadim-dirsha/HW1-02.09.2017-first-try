@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
         //some changes
         //good feature added
         Log.d(TAG_GOOD, "testing rebase");
-        //some action
+        //test rebase 2 master
     }
 }
