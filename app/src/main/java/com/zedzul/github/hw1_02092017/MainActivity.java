@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         //chery pick test begin
         //good feature added
         Log.d(TAG_GOOD, "testing rebase");
+        //some action
     }
 }
