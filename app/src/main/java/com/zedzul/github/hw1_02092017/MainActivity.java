@@ -8,6 +8,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String TAG_BAD = "BAD";
     public static final String MSG_FATAL_ERROR = "FATAL ERROR";
+    public static final String TAG_GOOD = "GOOD";
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -18,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG_BAD, MSG_FATAL_ERROR);
         //chery pick test begin
         //good feature added
+        Log.d(TAG_GOOD, "testing rebase");
     }
 }
