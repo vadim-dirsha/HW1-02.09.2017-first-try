@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //feature_1
         Log.d(TAG_BAD, MSG_FATAL_ERROR);
         //chery pick test begin
-        //good feature added
+        //bad change
         //some change
     }
 }
