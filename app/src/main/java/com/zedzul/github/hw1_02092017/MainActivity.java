@@ -7,6 +7,7 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 
     public static final String TAG_BAD = "BAD";
+    public static final String MSG_FATAL_ERROR = "FATAL ERROR";
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -14,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //feature_n
         //feature_1
-        Log.d(TAG_BAD,"FATAL ERROR");
+        Log.d(TAG_BAD, MSG_FATAL_ERROR);
     }
 }
